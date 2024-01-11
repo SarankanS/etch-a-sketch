@@ -2,20 +2,7 @@
 var sizeOfBoard = 16;
 createBoard(sizeOfBoard);
 
-/*
-function createBoard(size){
-    //Requres the board style to have display: grid;
-    const board = document.querySelector(".board");
-    //board.style.gridTemplateColumns = `repeat(${size},1fr)`;
-    //board.style.gridTemplateRows = `repeat(${size},1fr)`;
-    let numDivs = size*size;
-    for (let i=0; i<numDivs; i++){
-        const box = document.createElement("div");
-        box.classList.add("box");
-        board.appendChild(box);
-    }
-}
-*/
+
 
 function createBoard(size){
     //Creates rows and columns of board
@@ -28,11 +15,8 @@ function createBoard(size){
             const column = document.createElement("div");
             column.classList.add("column");
             row.appendChild(column);
-            column.darkness = 0;
         }
     }
-    //Start the hover function
-    hover();
 
 }
 
