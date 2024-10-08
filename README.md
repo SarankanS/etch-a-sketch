@@ -30,18 +30,6 @@ Welcome to the Etch-a-Sketch WebGrid project! This interactive webpage allows yo
 2. **Customize Grid Size:**
    Click the button at the top, enter the desired size, and enjoy a new sketch pad.
 
-## Contributions
-
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/my-feature`.
-3. Commit your changes: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/my-feature`.
-5. Open a pull request.
-
-## Acknowledgments
-
 Inspired by the classic Etch-a-Sketch drawing toy.
 
 Happy Drawing! 🎨
